@@ -1,11 +1,8 @@
 <?php
-require("includes/common.php");
-
-// Redirects the user to products page if he/she is logged in.
+require('includes/common.php');
 if (isset($_SESSION['email'])) {
-  header('location: products.php');
+    header('location: products.php');
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,6 +18,7 @@ if (isset($_SESSION['email'])) {
         <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
     </head>
+
     <body style="padding-top: 50px;">
         <!-- Header -->
         <?php
@@ -48,7 +46,7 @@ if (isset($_SESSION['email'])) {
             <div class="container">
                 <div class="row text-center" id="item_list">
                     <div class="col-sm-4">
-                        <a href="products.php#cameras" >
+                        <a href="products.html#cameras" >
                             <div class="thumbnail">
                                 <img src="img/1.jpg" alt="">
                                 <div class="caption">
@@ -60,7 +58,7 @@ if (isset($_SESSION['email'])) {
                     </div>
 
                     <div class="col-sm-4">
-                        <a href="products.php#watches" >
+                        <a href="products.html#watches" >
                             <div class="thumbnail">
                                 <img src="img/10.jpg" alt="">
                                 <div class="caption">
@@ -72,7 +70,7 @@ if (isset($_SESSION['email'])) {
                     </div>
 
                     <div class="col-sm-4">
-                        <a href="products.php#shirts" >
+                        <a href="products.html#shirts" >
                             <div class="thumbnail">
                                 <img src="img/13.jpg" alt="">
                                 <div class="caption">
@@ -84,15 +82,14 @@ if (isset($_SESSION['email'])) {
                     </div>
                 </div>
             </div>
-            
             <!--Item categories listing end-->
         </div>
-        
+
         <!--Footer-->
         <?php
         include 'includes/footer.php';
         ?>
         <!--Footer end-->
-   
+
     </body> 
 </html>

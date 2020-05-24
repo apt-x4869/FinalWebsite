@@ -20,8 +20,6 @@ if (!isset($_SESSION['email'])) {
             <div class="row decor_bg">
                 <div class="col-md-6 col-md-offset-3">
                     <table class="table table-striped">
-    
-                        <!--show table only if there are items added in the cart-->
                         <?php
                         $sum = 0;
                         $user_id = $_SESSION['user_id'];

@@ -18,7 +18,6 @@ require("includes/common.php");
         include 'includes/check-if-added.php';
         ?>
         <div class="container" id="content">
-            <!-- Jumbotron Header -->
             <div class="jumbotron home-spacer" id="products-jumbotron">
                 <h1>Welcome to our Lifestyle Store!</h1>
                 <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>
@@ -37,8 +36,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(1)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(1)) { 
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -61,8 +59,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(2)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(2)) { 
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -86,8 +83,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(3)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(3)) {
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -111,8 +107,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(4)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(4)) { 
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -138,8 +133,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(5)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(5)) { 
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -163,8 +157,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(6)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(6)) { 
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -188,8 +181,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(7)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(7)) { 
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -213,8 +205,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(8)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(8)) { 
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -240,8 +231,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(9)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(9)) { 
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -265,8 +255,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(10)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(10)) { 
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -290,8 +279,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(11)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(11)) { 
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
@@ -315,8 +303,7 @@ require("includes/common.php");
                                 <p><a href="login.php" role="button" class="btn btn-primary btn-block">Buy Now</a></p>
                                 <?php
                             } else {
-                                //We have created a function to check whether this particular product is added to cart or not.
-                                if (check_if_added_to_cart(12)) { //This is same as if(check_if_added_to_cart != 0)
+                                if (check_if_added_to_cart(12)) {
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else {
                                     ?>
